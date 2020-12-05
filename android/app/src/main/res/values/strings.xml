@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">sveltetest</string>
+    <string name="title_activity_main">sveltetest</string>
+    <string name="package_name">com.test.svelte</string>
+    <string name="custom_url_scheme">com.test.svelte</string>
+</resources>

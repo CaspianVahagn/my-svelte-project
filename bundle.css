@@ -1,0 +1,25 @@
+main.svelte-2e7zb5.svelte-2e7zb5 {
+  text-align: center;
+  padding: 1em;
+  max-width: 240px;
+  margin: 0 auto; }
+
+main.svelte-2e7zb5 h1.svelte-2e7zb5 {
+  color: #ff3e00;
+  text-transform: uppercase;
+  font-size: 4em;
+  font-weight: 100; }
+
+@media (min-width: 440px) {
+  main.svelte-2e7zb5.svelte-2e7zb5 {
+    max-width: none; } }
+
+.fade {
+  animation: fa linear 200ms;
+  color: red; }
+
+@keyframes fa {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }

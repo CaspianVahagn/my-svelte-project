@@ -1,0 +1,14 @@
+
+.fade{
+  animation: fa linear 200ms ;
+  color: pink;
+}
+
+@keyframes fa {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
