@@ -6,7 +6,7 @@ import "./assets/common-ui.scss"
 const app = new App({
 	target: document.body,
 	props: {
-		name: 'Testinkton'
+		name: 'Tara Tanja'
 	}
 });
 

@@ -28,7 +28,7 @@
 
 <main class="box">
 	<h1 >Hello {value.name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial {s}</a> to learn how to build Svelte apps.</p>
+<!--	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial {s}</a> to learn how to build Svelte apps.</p>-->
 	<p>AA</p><input type="text" bind:value="{a}" >
 	<p class="fade">BB</p><input type="text" bind:value="{b}" >
 	<button class="btn" on:click={save}>save</button>
