@@ -1,4 +1,4 @@
 {
   "root": "public/",
-  "https_only": false
+  "https_only": true
 }
