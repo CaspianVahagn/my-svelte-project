@@ -1,14 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap');
 
-.fade{
-  animation: fa linear 200ms ;
-  color: pink;
+// colors
+$primary: #c3f3ff;
+$primary-bright: #a2efff;
+$secondary: #ffd5ef;
+$secondary-bright: #d099ff;
+$success: #c5ffce;
+$warn: #fff378;
+$error: #ff6786;
+$default: #48535f;
+$bg: #282f34;
+$text-dark: #282f34;
+$text: #adcfe2;
+// colors end
+
+// fonts
+$font-reg: 'Roboto Mono', monospace;
+//
+
+//transitions
+@mixin defaultTransition{
+  transition: all ease-in 200ms;
 }
+//
 
-@keyframes fa {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+body{
+  background: $bg;
 }

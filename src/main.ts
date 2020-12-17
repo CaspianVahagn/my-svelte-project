@@ -1,5 +1,7 @@
 import App from './App.svelte';
 import "./assets/theme.scss"
+import "./assets/common-ui.scss"
+
 
 const app = new App({
 	target: document.body,
@@ -9,3 +11,4 @@ const app = new App({
 });
 
 export default app;
+
